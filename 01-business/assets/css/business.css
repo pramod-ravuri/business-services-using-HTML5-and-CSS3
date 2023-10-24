@@ -1,6 +1,8 @@
 :root {
-    --main-bg-color: #ff0000;
-    --main-text-color: #ff0000;
+    --primary-color: #ff0000;
+    --main-text-color:#ffffff;
+    --primary-text-color: #ff0000;
+    --secondary-text-color:rgb(32, 166, 219);
 }
 
 * {
@@ -31,14 +33,14 @@ footer #footer-links .container {
 }
 
 header {
-    background-color: var(--main-bg-color);
+    background-color: var(--primary-color);
     height: 40px;
     padding: 30px 0px 10px 0px;
 }
 
 header a,
 footer a {
-    color: #ffffff;
+    color:var(--main-text-color);
     text-decoration: none;
 }
 
@@ -65,7 +67,7 @@ header ul li span {
 }
 
 #banner #banner-description p {
-    color: var(--main-text-color);
+    color: var(--primary-text-color);
 }
 
 .container {
@@ -153,15 +155,15 @@ section #content .catalog .heading-text .row-one {
 
 section #content .para button,
 section #content .card button {
-    background-color: var(--main-bg-color);
+    background-color: var(--primary-color);
     border: none;
-    color: #ffffff;
+    color:var(--main-text-color);
     padding: 5px 15px;
 }
 
 section span,
 #banner .icons a {
-    color: rgb(32, 166, 219);
+    color:var(--secondary-text-color);
 }
 
 section #content {
@@ -177,7 +179,7 @@ aside .input-field {
     margin-top: 30px;
 }
 
-aside .input-field .input input[type=text] {
+aside .input-field .input input[type="text"] {
     background-color: rgb(249, 240, 240);
     border: none;
     margin-right: 10px;
@@ -187,14 +189,14 @@ aside .input-field .input input[type=text] {
 }
 
 aside .input-field .icon {
-    background-color: var(--main-bg-color);
+    background-color: var(--primary-color);
     border: none;
     border: 1px solid #000000;
     padding: 7px 6px 0px 6px;
 }
 
 aside .input-field .icon i {
-    color: #ffffff;
+    color:var(--main-text-color);
 }
 
 aside .summary .info,
@@ -212,19 +214,19 @@ aside .summary .points i {
 aside .summary .info i,
 aside .testimonials .info i,
 aside .contact .add-info i {
-    color: var(--main-text-color);
+    color: var(--primary-text-color);
     margin-right: 10px;
 }
 
 aside .testimonials .span {
-    color: var(--main-text-color);
+    color: var(--primary-text-color);
 }
 
 aside .contact {
     padding-bottom: 20px;
 }
 footer p {
-    color: #ffffff;
+    color:var(--main-text-color);
     margin-bottom: 10px;
 }
 
@@ -236,18 +238,18 @@ footer input {
 footer button {
     background-color: #000000;
     border: none;
-    color: var(--main-text-color);
+    color: var(--primary-text-color);
     padding: 4px 10px;
 }
 
 footer span i {
-    color: #ffffff;
+    color:var(--main-text-color);
     margin-bottom: 35px;
     margin-right: 20px;
 }
 
 footer #footer-links {
-    background-color: var(--main-bg-color);
+    background-color: var(--primary-color);
 }
 
 footer #footer-links .row .col {
@@ -261,6 +263,6 @@ footer #copy-rights {
 }
 
 footer #copy-rights span {
-    color: rgb(32, 166, 219);
+    color:var(--secondary-text-color);
     padding: 20px 0px;
 }

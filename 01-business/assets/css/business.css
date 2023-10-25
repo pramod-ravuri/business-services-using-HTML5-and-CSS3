@@ -162,10 +162,12 @@ section #content .card button {
 }
 
 section span,
-#banner .icons a {
+#banner .icons a, #content a,aside a {
     color:var(--secondary-text-color);
 }
-
+#content a,aside a{
+    text-decoration: none;
+}
 section #content {
     border-right: 1px solid #d3d3d3;
     width: 67%;
